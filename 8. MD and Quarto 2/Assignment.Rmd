@@ -1,14 +1,31 @@
 ---
-title: "Exercise"
-author: "Wojciech Hardy"
-date: "3/29/2022"
-output: html_document
+title: "(R)Exercise"
+author: "Aleksandra"
+date: "4/20/2023"
+output:
+  html_document:
+    toc: true       
+    toc_float: true  
+    theme: united     
 ---
 
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::convert_chunk_header(input = "RMD_class_1_cut.Rmd", output = "QMD_class_1_cut.qmd")
 load("../Data/got/season_1.RData")
 ```
+# Tabset {.tabset}
+
+## Tab 1 
+
+
+## Tab 2 
+
+
+## Tab 3
+
+
+
 
 # Game of Thrones - Season 1 summary in numbers
 
